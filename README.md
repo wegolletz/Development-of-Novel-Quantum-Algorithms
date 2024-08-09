@@ -49,7 +49,9 @@ Additionally, we discussed using zero-noise extrapolation as an error mitigation
 Our work is based on the paper: ["Evidence for the utility of quantum computing before fault tolerance"](https://www.nature.com/articles/s41586-023-06096-3) written by Y. Kim, et. al.
 
 0. [The entire report:](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/final-report.ipynb)
+   
    It includes all the codes and notes.
+   
    [Slides](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/QWomanium2024-Project-slides.pdf)
 
 The codes listed below are contained in the general report.
@@ -59,15 +61,19 @@ Standalone codes:
    - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/1D-Ising-model.qprog)
    - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/1D-Ising-model.qmod)
 2. Enlarged model:
+   
    System 3x3 spins
+   
    - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-3x3.ipynb)
    - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-3x3.qprog)
    - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-3x3.qmod)
+     
    System 5x5 spins
+
    - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5.ipynb)
    - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5.qprog)
    - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5.qmod)
-3. Model optimized for the hardware:
+5. Model optimized for the hardware:
    - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5-ibm-hardware.ipynb)
    - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5-ibm-hardware.qprog)
    - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5-ibm-hardware.qmod)
