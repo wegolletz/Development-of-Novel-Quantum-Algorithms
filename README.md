@@ -42,14 +42,40 @@ Team Member 2:
 
 
 ### Project Solution:
-_Include a comprehensive summary of all important information about your project solution here._
-All necessary code files and any additional information required to judge your project solution should be included in the repository. 
+We simulate the 1D transverse-field Ising model as a toy model and discussed the building blocks of the quantum circuit. 
+Then extend it to the 2D transverse-field Ising model, perform resource estimation.
+As the last step, we take into account the architecture of the hardware and optimize the connections between spins according to the qubit connections in the hardware.
+Additionally, we discussed using zero-noise extrapolation as an error mitigation method.
+Our work is based on the paper: ["Evidence for the utility of quantum computing before fault tolerance"](https://www.nature.com/articles/s41586-023-06096-3) written by Y. Kim, et. al.
+
+0. [The entire report:](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/final-report.ipynb)
+   It includes all the codes and notes.
+   [Slides](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/QWomanium2024-Project-slides.pdf)
+
+The codes listed below are contained in the general report.
+Standalone codes:
 1. Toy model:
- - 
-2. 
+   - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/1D-Ising-model.ipynb)
+   - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/1D-Ising-model.qprog)
+   - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/1D-Ising-model.qmod)
+2. Enlarged model:
+   System 3x3 spins
+   - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-3x3.ipynb)
+   - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-3x3.qprog)
+   - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-3x3.qmod)
+   System 5x5 spins
+   - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5.ipynb)
+   - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5.qprog)
+   - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5.qmod)
+3. Model optimized for the hardware:
+   - [jupyter notebook](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5-ibm-hardware.ipynb)
+   - [qprog](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5-ibm-hardware.qprog)
+   - [qmod](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/2D-Ising-model-5x5-ibm-hardware.qmod)
+
 
 ### Project Presentation Deck:
-_Upload/ Link a 3min. presentation deck here._
+[Slides](https://github.com/wegolletz/Development-of-Novel-Quantum-Algorithms/blob/main/QWomanium2024-Project-slides.pdf)
+
 
 See project presentation guidelines [here](https://docs.google.com/document/d/13nWF8AxFAfFYTWEYPT3BpPdYkqtxxSAjmuXj_zcMh-E/edit?usp=sharing)
 
