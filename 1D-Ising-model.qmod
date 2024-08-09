@@ -1,0 +1,68 @@
+qfunc main(output qreg: qbit[]) {
+  allocate(4, qreg);
+  suzuki_trotter([
+    PauliTerm {
+      pauli=[
+        Pauli::Z,
+        Pauli::Z,
+        Pauli::I,
+        Pauli::I
+      ],
+      coefficient=1
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::I,
+        Pauli::Z,
+        Pauli::Z,
+        Pauli::I
+      ],
+      coefficient=1
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::I,
+        Pauli::I,
+        Pauli::Z,
+        Pauli::Z
+      ],
+      coefficient=1
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::X,
+        Pauli::I,
+        Pauli::I,
+        Pauli::I
+      ],
+      coefficient=-3
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::I,
+        Pauli::X,
+        Pauli::I,
+        Pauli::I
+      ],
+      coefficient=-3
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::I,
+        Pauli::I,
+        Pauli::X,
+        Pauli::I
+      ],
+      coefficient=-3
+    },
+    PauliTerm {
+      pauli=[
+        Pauli::I,
+        Pauli::I,
+        Pauli::I,
+        Pauli::X
+      ],
+      coefficient=-3
+    }
+  ], 1.0, 1, 10, qreg);
+}
